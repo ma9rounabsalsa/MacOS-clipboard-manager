@@ -1,1 +1,1 @@
-# placeholder-forum
+# MacOS-clipboard-manager
