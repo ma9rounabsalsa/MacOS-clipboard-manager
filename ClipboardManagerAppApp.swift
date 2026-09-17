@@ -26,7 +26,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         registerGlobalHotKey()
     }
 
-    // BROKEN DOSN'T WORKS ⌘⇧V NEED FIX
+    // BROKEN DOSN'T WORKS ⌘⇧V NEED FIX /
     private func registerGlobalHotKey() {
         let hotKeyID = EventHotKeyID(signature: OSType(0x434C4950), id: 1)
         let modifiers = UInt32(cmdKey | shiftKey)
